@@ -1,0 +1,23 @@
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.visited {
+  background-color: rgba(0, 255, 128, 0.05);
+}
+
+.not-visited {
+  background-color: rgba(255, 127, 80, 0.05);
+}
+
+.container {
+  display: flex;
+}
+
+.flag-container img {
+  width: 35px;
+  height: auto;
+}
+  
